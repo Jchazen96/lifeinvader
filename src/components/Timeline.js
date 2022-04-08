@@ -18,10 +18,11 @@ const Timeline = () => {
     }, [])
 
     return (
-        <div>
+        <div className="timeline">
             
             <button onClick={() => {setNewPostModalVisible(!newPostModalVisible)}}>+New Post</button>
             <CreatePostModal newPostModalVisible={newPostModalVisible}/>
+           <div className="post-feed">
             {
                 posts.map((post) => {
                     return(
@@ -29,6 +30,7 @@ const Timeline = () => {
                     )
                 })
             }
+            </div>
         </div>
     )
 }
