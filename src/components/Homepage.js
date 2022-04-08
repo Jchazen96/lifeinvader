@@ -4,7 +4,7 @@ import Sidebar from "../Sidebar";
 const Homepage = () => {
     return (
         <div>
-            <h2>Welcome to Lifeinvader</h2>
+            
             <Timeline />
             <Sidebar />
         </div>

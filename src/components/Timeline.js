@@ -19,7 +19,7 @@ const Timeline = () => {
 
     return (
         <div>
-            <h2>Timeline</h2>
+            
             <button onClick={() => {setNewPostModalVisible(!newPostModalVisible)}}>+New Post</button>
             <CreatePostModal newPostModalVisible={newPostModalVisible}/>
             {
